@@ -27,33 +27,20 @@ Os arquivos de instalação ficam salvos localmente na pasta `programas/`, e cad
 ## 📁 Estrutura do Projeto
 
 InstaladorGeral/
-├── instalar.py # Script principal com a lógica e a interface
-├── iniciar.bat # (Opcional) Atalho para executar o script
-├── programas/ # Instaladores locais (.exe)
-│ ├── ChromeSetup.exe
-│ ├── FirefoxSetup.exe
-│ └── ...
-├── SolidDataBase.db # (Opcional) Base de dados auxiliar se desejado
+  ├── instalar.py # Script principal com a lógica e a interface
+   ├── iniciar.bat # (Opcional) Atalho para executar o script
+    ├── programas/ # Instaladores locais (.exe)
+      │ ├── ChromeSetup.exe
+        │ ├── FirefoxSetup.exe
+          │ └── ...
+            ├── SolidDataBase.db # (Opcional) Base de dados auxiliar se desejado
 
 ## 🚀 Como usar
 
-1. Coloque os instaladores desejados na pasta `programas/`  
-   *(ou insira o link de download do seu programa, se implementar essa funcionalidade)*  
-2. Inicie o script `instalar.py` ou o atalho `Instalador de Programas.exe` (caso compilado com PyInstaller)  
-3. Marque os programas que deseja instalar  
+1. Coloque os instaladores desejados na pasta `programas/` ou insira o link de download do seu programa.
+2. Inicie o script `instalar.py` caso queria modificar ou o atalho `Instalador de Programas.exe` para iniciar o programa  
+3. Marque os programas que deseja instalar( É possível adicionar seu programa, bem como exclui-lo também )
 4. Clique em **“Instalar”** e aguarde a conclusão  
-
----
-
-## ✅ Requisitos
-
-- Sistema **Windows**
-- **Python 3.x**
-- Bibliotecas necessárias:
-  - `customtkinter` → instale com:
-    ```bash
-    pip install customtkinter
-    ```
 
 ---
 
@@ -63,4 +50,10 @@ Este projeto é voltado para **uso interno** por equipes de TI, técnicos ou pro
 
 ---
 
-📌 *Sinta-se à vontade para adaptar este projeto ao seu fluxo interno. Sugestões são bem-vindas!*
+## 💡 Futuras implementações
+
+Adicão de automação Python para instalação de programas. Utilização de Bash para instalações mais fluidas. Interface melhorada.
+
+---
+
+📌 *Sinta-se à vontade para adaptar este projeto ao seu fluxo interno. Sugestões são sempre bem-vindas!*
