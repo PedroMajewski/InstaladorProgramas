@@ -11,6 +11,10 @@ Pensado especialmente para **técnicos do setor de informática**.
 Desenvolvido com **Python** e **CustomTkinter**, o instalador oferece uma interface gráfica intuitiva e objetiva, permitindo ao usuário selecionar com checkboxes quais programas deseja instalar.  
 Os arquivos de instalação ficam salvos localmente na pasta `programas/`, e cada instalação é executada em **modo silencioso** sempre que possível.
 
+## 🚨 Observação/ALERTA
+
+Algumas versões do Windows irão indicar como **NÃO SEGURO**, porém é devido ao modelo de formatação do python e do customTkInter, caso queira checar manualmente se não estiver confiante, pode utilizar o VirustTotal.com para verificar se há virus ou não.
+![VirusTotal](https://www.virustotal.com/gui/home/upload)
 ---
 
 ## 🔧 Funcionalidades
@@ -37,10 +41,12 @@ InstaladorGeral/
 
 ## 🚀 Como usar
 
-1. Coloque os instaladores desejados na pasta `programas/` ou insira o link de download do seu programa.
-2. Inicie o script `instalar.py` caso queria modificar ou o atalho `Instalador de Programas.exe` para iniciar o programa  
-3. Marque os programas que deseja instalar( É possível adicionar seu programa, bem como exclui-lo também )
-4. Clique em **“Instalar”** e aguarde a conclusão  
+1. Baixe como arquivo ZIP ou clone o repositório em uma pasta desejada.
+2. Inicie o programa em "InstaladorDeProgramas/dist/InstallProV.01.exe"- O windows provavelmente vai indicar como NÃO SEGURO, porém é devido ao modelo de formatação do python e do customTkInter, caso queira checar manualmente se não estiver confiante, pode utilizar o VirustTotal.com para verificar se há virus ou não.
+3. Inicie o script `instaladorProgramas.py` caso queria modificar ou o atalho `InstallProV01.exe` para iniciar o programa  
+4. Marque os programas que deseja instalar( É possível adicionar seu programa, bem como exclui-lo também )
+5. Clique em **“Instalar”** e aguarde a conclusão
+6. SEMPRE DÊ OK NAS CAIXAS PARA PROSSEGUIR COM A INSTALAÇÃO CASO CONTRÁRIO ELA NÃO IRÁ INICIAR 
 
 ---
 
