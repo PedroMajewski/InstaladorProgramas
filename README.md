@@ -15,7 +15,6 @@ Os arquivos de instalação ficam salvos localmente na pasta `programas/`, e cad
 
 Algumas versões do Windows irão indicar como **NÃO SEGURO**, porém é devido ao modelo de formatação do python e do customTkInter, caso queira checar manualmente se não estiver confiante, pode utilizar o VirustTotal.com para verificar se há virus ou não.
 ![VirusTotal](https://www.virustotal.com/gui/home/upload)
----
 
 ## 🔧 Funcionalidades
 
